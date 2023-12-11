@@ -4,7 +4,7 @@ This repo is divided into 4 parts:
    - [Annotated paper](https://github.com/Kirili4ik/OctoCode-eval)
    - [Notebook](https://github.com/Kirili4ik/OctoCode-eval) with paper analysis and thoughts
 1. [[notebook]](https://github.com/Kirili4ik/OctoCode-eval) Data Exploration for [CommitPackFt](https://huggingface.co/datasets/bigcode/commitpackft)
-1. [[notebook]](https://github.com/Kirili4ik/OctoCode-eval) Reproducing evaluation from the paper (using model: Octocoder; data: humanevalfixtests-python, pass@1: 31.4) + qualitative analysis
+1. [[notebook]](https://github.com/Kirili4ik/OctoCode-eval/blob/main/eval_reproduction/OctoCoder_eval_reproduce.ipynb) Reproducing evaluation from the paper (using model: Octocoder; data: humanevalfixtests-python, pass@1: 31.4) + qualitative analysis
 1. Final thoughts:
 
 What about commits as a source of natural language instructions for code editing? Any possible pitfalls? 
