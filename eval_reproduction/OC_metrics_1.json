@@ -1,0 +1,43 @@
+{
+  "humanevalfixtests-python": {
+    "pass@1": 0.31432926829268293,
+    "pass@10": 0.4015543044511179
+  },
+  "config": {
+    "prefix": "",
+    "do_sample": true,
+    "temperature": 0.2,
+    "top_k": 0,
+    "top_p": 0.95,
+    "n_samples": 20,
+    "eos": "<|endoftext|>",
+    "seed": 0,
+    "model": "bigcode/octocoder",
+    "modeltype": "causal",
+    "peft_model": null,
+    "revision": null,
+    "use_auth_token": false,
+    "trust_remote_code": true,
+    "tasks": "humanevalfixtests-python",
+    "instruction_tokens": null,
+    "batch_size": 5,
+    "max_length_generation": 2048,
+    "precision": "bf16",
+    "load_in_8bit": false,
+    "load_in_4bit": false,
+    "limit": null,
+    "limit_start": 0,
+    "postprocess": true,
+    "allow_code_execution": true,
+    "generation_only": false,
+    "load_generations_path": null,
+    "load_data_path": null,
+    "metric_output_path": "OC_metrics_1.json",
+    "save_generations": true,
+    "save_generations_path": "OC_generations_same.json",
+    "save_references": false,
+    "prompt": "octocoder",
+    "max_memory_per_gpu": null,
+    "check_references": false
+  }
+}
