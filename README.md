@@ -7,7 +7,7 @@ This repo is divided into 4 parts:
 
 Commits can be used as a source of natural language instructions for code editing. This way has one clear advantage and disadvantage: while we have lots and lots of data, the quality is questionable. Even after lots of filtering done by the authors of the paper, the data can stil be unpredictable and/or completely lies (we have no guarantees or ways to check that). That brings me to a point where using datasets like CommitPack is a great idea for pretraining and training of backbones, while final finetuning and polishing should probably be done via human-generated tasks/rlhf/dpo etc.
 
-Links:
+References:
 - BigCode: [bigcode-project.org](https://www.bigcode-project.org/)
 - Paper: [OctoPack: Instruction Tuning Code Large Language Models by N Muennighoff et. al 2023](https://arxiv.org/abs/2308.07124)
 - Octopack: [github.com/bigcode-project/octopack](https://github.com/bigcode-project/octopack)
