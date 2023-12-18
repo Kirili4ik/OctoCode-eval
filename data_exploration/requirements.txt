@@ -1,0 +1,6 @@
+wordcloud
+IPython
+datasets
+pandas
+numpy
+matplotlib
