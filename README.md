@@ -4,7 +4,7 @@ This repo is divided into 5 parts:
 1. [[notebook]](https://github.com/Kirili4ik/OctoCode-eval/blob/main/data_exploration/dataset_exploration_CommitPackFt.ipynb) Data Exploration (basic) for [CommitPackFt](https://huggingface.co/datasets/bigcode/commitpackft)
 1. [[notebook]](https://github.com/Kirili4ik/OctoCode-eval/blob/main/eval_reproduction/OctoCoder_eval_reproduce.ipynb) Reproducing evaluation from the paper (using model: Octocoder; data: humanevalfixtests-python, **pass@1: 31.4**) + qualitative analysis
 1. [Thoughts and comments on the paper](#Thoughts-and-comments-on-the-paper)
-1. Final thoughts on using commits as instructions
+1. [Final thoughts on using commits as instructions](#Final-thoughts-on-using-commits-as-instructions)
 
 ### Thoughts and comments on the paper
 Authors state the creation of CommitPack(FT), HumanEvalPack and Octocoder model. I feel like CommitPackFT does not bring a lot of value since in the authors' comparison instruct-tuning on OASST vs OASST+CommitPackFT shows almost no difference:
@@ -20,7 +20,7 @@ Moreover, we should note that at least [40% of code is already written by copilo
 
 
 
-### Using commits as a source of NL instructions for code editing
+### Final thoughts on using commits as instructions
 Using commits as a source of NL instructions has one clear advantage and disadvantage: while we have lots and lots of data, the quality is questionable. Even after lots of filtering done by the authors of the paper, the data can still be unpredictable and/or completely useless/lies (we have no guarantees or ways to check that). We should also compare this approach with 2 different ones being a) Generating instructions using gpt-4 / self-instruct and scraping people's dialogues with assistants (OASST). Obviously all the approaches have their own advantages and disadvantages, but as we see in the graphs - commits add the least.  
 
 
