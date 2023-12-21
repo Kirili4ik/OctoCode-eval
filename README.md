@@ -3,10 +3,10 @@ This repo is divided into 5 parts:
 1. [[PDF]](https://github.com/Kirili4ik/OctoCode-eval) Annotated paper. Original paper: [OctoPack: Instruction Tuning Code Large Language Models by N Muennighoff et. al 2023](https://arxiv.org/abs/2308.07124)
 1. [[notebook]](https://github.com/Kirili4ik/OctoCode-eval/blob/main/data_exploration/dataset_exploration_CommitPackFt.ipynb) Data Exploration (basic) for [CommitPackFt](https://huggingface.co/datasets/bigcode/commitpackft)
 1. [[notebook]](https://github.com/Kirili4ik/OctoCode-eval/blob/main/eval_reproduction/OctoCoder_eval_reproduce.ipynb) Reproducing evaluation from the paper (using model: Octocoder; data: humanevalfixtests-python, **pass@1: 31.4**) + qualitative analysis
-1. Thoughts and comments on the paper
+1. [Thoughts and comments on the paper](#Thoughts-and-comments-on-the-paper)
 1. Final thoughts on using commits as instructions
 
-### Talking about the paper itself
+### Thoughts and comments on the paper
 Authors state the creation of CommitPack(FT), HumanEvalPack and Octocoder model. I feel like CommitPackFT does not bring a lot of value since in the authors' comparison instruct-tuning on OASST vs OASST+CommitPackFT shows almost no difference:
 <img src="https://github.com/Kirili4ik/OctoCode-eval/assets/30757466/fcf1976b-dc3a-49f9-8873-c3998126bb7a" width="850" height="300">
 <img src="https://github.com/Kirili4ik/OctoCode-eval/assets/30757466/8226e3e5-7254-4f05-a09b-0ad8805f20f8" width="600" height="300">
